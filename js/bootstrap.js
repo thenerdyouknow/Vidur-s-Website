@@ -2185,8 +2185,7 @@ if (typeof jQuery === 'undefined') {
 
   Affix.VERSION  = '3.3.4'
 
-  Affix.RESET    = 'affix affix-top affix-bottom'
-
+  Affix.RESET    = 'affix affix-bottom'
   Affix.DEFAULTS = {
     offset: 0,
     target: window

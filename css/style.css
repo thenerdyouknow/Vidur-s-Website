@@ -32,7 +32,7 @@ h5 {
 }
 p.intro {
 	font-size: 16px;
-	margin: 12px 0 0;
+	margin: 50px 0 0;
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -167,9 +167,9 @@ hr {
 }
 /* Home Section */
 .intro {
-	display: table;
-	width: 100%;
-	height: auto;
+	/*display: table;*/
+	width: 100% !important;
+	height: 100% !important;
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
@@ -309,7 +309,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 @media(min-width:768px) {
 .intro {
 	height: 100%;
-	padding: 0;
+	padding: 25% 0 30% 0%;
 	text-align: left;
 	color: #fff;
 }
@@ -327,15 +327,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-	margin-bottom: 40px;
-	margin-top: 20px;
+	margin-bottom: 100px;
+	margin-top: 100px;
 }
 section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-bottom: 0px;
 }
 .timeline:before {
 	left: 50%;
