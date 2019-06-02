@@ -53,12 +53,15 @@ $(document).ready(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
           if($(this).scrollTop() > 500) { 
               $('#nav').addClass('solid');
-          } else {
+              } else {
               $('#nav').removeClass('solid');
           }
         });
 });
 
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
   	// Portfolio isotope filter
     $(window).load(function() {
         var $container = $('.portfolio-items');
