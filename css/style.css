@@ -89,9 +89,9 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #121d1f;
 	border-radius: 0px;
 	padding: 10px 0;
+	background:transparent;
 }
 .navbar-custom .navbar-brand {
 	font-weight: 600;
@@ -108,7 +108,7 @@ hr {
 	outline: 0;
 }
 .navbar-custom a {
-	color: #f4f5f6;
+	color: #000000;
 }
 .navbar-custom .nav li a {
 	text-transform: uppercase;
@@ -119,13 +119,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #000000;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #000000;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -172,9 +172,12 @@ hr {
 	height: 100% !important;
 	padding: 100px 0;
 	text-align: center;
+	display: flex;
+	align-items: flex-end;
 	color: #fff;
-	background: url(../img/intro-bg.jpeg) no-repeat center top;
+	background: url(../img/intro-bg-1.jpeg) no-repeat center top;
 	background-color: #7bc3d1;
+	background-origin: padding-box;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
