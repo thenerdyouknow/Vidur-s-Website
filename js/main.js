@@ -48,13 +48,16 @@ $('#nav').affix({
 	// });
 
 $(document).ready(function() {
+        $('#target').hide();
         // Transition effect for navbar 
         $(window).scroll(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
           if($(this).scrollTop() > 500) { 
               $('#nav').addClass('solid');
+              $('#target').show();
               } else {
               $('#nav').removeClass('solid');
+              $("#target").hide();
           }
         });
 });
