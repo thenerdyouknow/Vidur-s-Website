@@ -81,7 +81,15 @@ hr {
 /* Navigation */
 #nav {
 	z-index: 9999;
+	transition: background-color 1s ease 0s;
 }
+
+#nav.solid {
+  background-color: #2E4052;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
 #nav.affix {
 	position: fixed;
 	top: 0;
@@ -108,7 +116,7 @@ hr {
 	outline: 0;
 }
 .navbar-custom a {
-	color: #000000;
+	color: #f6f6f6;
 }
 .navbar-custom .nav li a {
 	text-transform: uppercase;
@@ -119,13 +127,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #000000;
+	color: #f6f6f6;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #000000;
+	color: #f6f6f6;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
