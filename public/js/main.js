@@ -52,12 +52,27 @@ $(document).ready(function() {
         // Transition effect for navbar 
         $(window).scroll(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
-          if($(this).scrollTop() > 500) { 
+          if($(this).scrollTop() > 300) { 
               $('#nav').addClass('solid');
               $('#target').show();
               } else {
               $('#nav').removeClass('solid');
               $("#target").hide();
+          }
+        });
+});
+
+$(document).ready(function() {
+        $('#target-videos').hide();
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 100) { 
+              $('#nav-videos').addClass('solid');
+              $('#target-videos').show();
+              } else {
+              $('#nav-videos').removeClass('solid');
+              $("#target-videos").hide();
           }
         });
 });
@@ -110,3 +125,4 @@ $('.navbar-collapse a').click(function(){
 
 }
 main();
+
