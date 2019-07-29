@@ -543,7 +543,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(255,255,255,0.3);
 }
 .section-title-videos{
-	padding: 20px 0;
+	padding-top: 80px;
+	padding-bottom: 10px;
 }
 
 .h2-videos {
@@ -571,4 +572,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	position: fixed;
 	top: 0;
 	width: 100%
+}
+.first-video{
+	padding-top: 95px;
+	background-color: #f6f6f6;
 }
